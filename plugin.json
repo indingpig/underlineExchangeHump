@@ -1,0 +1,15 @@
+{
+	"pluginName": "helloWorld",
+  "description": "我的第一个uTools插件",
+  "author": "indingpig",
+  "main": "index.html",
+  "preload":"preload.js",
+	"version": "0.0.1",
+	"features": [
+		{
+		  "code": "hello",
+		  "explain": "hello world",
+			"cmds":["hello", "你好"]
+		}
+	]
+}
